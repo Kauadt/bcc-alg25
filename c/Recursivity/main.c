@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fat(int n){
+int fatF(int n){
     if(n == 0){
         return 1;
     } else {
@@ -13,7 +13,7 @@ int main(){
     int num, fat;
     printf("Digite um número: ");
     scanf("%d", &num);
-    fat = fat(num);
+    fat = fatF(num);
     printf("%d! = %d\n", num,fat);
 
     return 0;

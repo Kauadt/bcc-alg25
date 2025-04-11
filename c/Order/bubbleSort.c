@@ -5,7 +5,7 @@ int main(){
     int wasSwapped;
 
     for(int i = 0; i < 10; i++){
-        printf do texto("Digite um número: ");
+        printf("Digite um número: ");
         scanf("%d", &numbers[i]);
     }
 
